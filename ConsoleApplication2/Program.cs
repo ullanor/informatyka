@@ -16,6 +16,7 @@ namespace ConsoleApplication2
                 Console.WriteLine("1 - addition");
                 Console.WriteLine("2 - substraction");
                 Console.WriteLine("3 - multiplication");
+                Console.WriteLine("4 - division");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if (menuOption == 0)
                     break;
