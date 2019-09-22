@@ -10,6 +10,17 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                int menuOption = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("0 - exit");
+                Console.WriteLine("1 - addition");
+                Console.WriteLine("2 - substraction");
+                if (menuOption == 0)
+                    break;
+
+                
+            }
         }
     }
 }
